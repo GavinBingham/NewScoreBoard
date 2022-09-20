@@ -1,0 +1,58 @@
+@font-face {
+  font-family: timer;
+  src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url("blue-basketball.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 40px 40px;
+  max-width: 400px;
+  margin: auto;
+  color: #edede9;
+  border-radius: 25px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#clear-button {
+  vertical-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #9e2a2b;
+  background-color: #03071e;
+  padding: 10px 10px;
+  margin: 15px auto;
+  border-radius: 10px;
+  font-family: timer;
+  font-size: large;
+}
+
+button {
+  background-color: transparent;
+  border: #edede9 solid;
+  color: #edede9;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+  background-color: #edede9;
+  color: #0077b6;
+  cursor: pointer;
+}
+
